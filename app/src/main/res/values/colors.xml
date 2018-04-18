@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="red">#d00037</color>
+
+    <!--left -->
+    <color name="left_back">@color/white</color>
+
+    <!-- action bar -->
+    <color name="actionbar_back">#e1e1e1</color>
+    <color name="actionbar_text">@color/black</color>
+
+    <!--list-->
+    <color name="list_text_name_back">#96ffffff</color>
+
+    <!-- float menu -->
+    <color name="float_menu_mask_color_show">#59000000</color>
+    <color name="float_menu_btn_back_color">@color/red</color>
+    <color name="float_menu_btn_text_color">@color/white</color>
+</resources>

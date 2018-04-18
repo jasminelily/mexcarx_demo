@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="list_item"></declare-styleable>
+    <declare-styleable name="float_menu"></declare-styleable>
+    <declare-styleable name="resize_image"></declare-styleable>
+
+</resources>

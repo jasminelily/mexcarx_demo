@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+
+    <!-- top bar title -->
+    <style name="TopTextViewTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/actionbar_text</item>
+        <item name="android:textSize">@dimen/top_header_title</item>
+    </style>
+
+    <!--top bar button -->
+    <style name="TopButtonLeft">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+
+    <!-- float button -->
+    <style name="FloatButton">
+        <item name="android:layout_width">@dimen/float_menu_size</item>
+        <item name="android:layout_height">@dimen/float_menu_size</item>
+        <item name="android:textColor">@color/float_menu_btn_text_color</item>
+        <item name="android:textSize">@dimen/float_menu_text_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">@dimen/float_menu_Margin_space</item>
+        <item name="android:layout_marginEnd">@dimen/float_menu_margin_right</item>
+        <item name="android:background">@mipmap/bg_exhibit</item>
+    </style>
+</resources>

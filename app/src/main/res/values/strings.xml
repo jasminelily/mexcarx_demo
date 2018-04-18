@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mercari</string>
+    <string name="top_header">Mercari</string>
+
+    <string name="left_header">Mercari</string>
+    <string name="left_home">ホーム</string>
+
+    <string name="list_item_sold_out">SOLD OUT</string>
+
+    <string name="float_menu_btn">出品</string>
+</resources>

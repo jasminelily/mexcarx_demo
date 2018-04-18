@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/float_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_menu_main"
+            style="@style/FloatButton"
+            android:drawableBottom="@mipmap/ic_camera"
+            android:paddingBottom="@dimen/float_menu_icon_margin_bottom"
+            android:text="@string/float_menu_btn" />
+    </RelativeLayout>
+
+</merge>

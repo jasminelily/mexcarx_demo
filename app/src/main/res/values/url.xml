@@ -1,0 +1,4 @@
+<resources>
+    <string name="url_home_all">https://s3-ap-northeast-1.amazonaws.com/m-et/Android/json/master.json</string>
+
+</resources>

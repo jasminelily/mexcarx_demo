@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/list_margin_bottom"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <mercari.com.example.lily.common.view.ViewDynamicImage
+            android:id="@+id/img_goods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_item_margin"
+            android:layout_marginRight="@dimen/list_item_margin"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_goods"
+            android:layout_alignLeft="@+id/img_goods"
+            android:layout_alignRight="@+id/img_goods"
+            android:background="@color/list_text_name_back"
+            android:gravity="bottom"
+            android:paddingLeft="@dimen/list_margin"
+            android:paddingRight="@dimen/list_margin" />
+
+        <ImageView
+            android:id="@+id/img_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:src="@mipmap/image_sold_out"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/list_item_margin"
+        android:layout_marginRight="@dimen/list_item_margin"
+        android:layout_marginTop="@dimen/list_item_margin"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_like"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/icon_like" />
+
+            <TextView
+                android:id="@+id/txt_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/img_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/icon_comment" />
+
+            <TextView
+                android:id="@+id/txt_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

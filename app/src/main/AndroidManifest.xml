@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mercari.com.example.lily.demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="26" />
+
+    <application
+        android:name="mercari.com.example.lily.MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_launcher"
+        android:supportsRtl="true"
+        android:configChanges="orientation|screenSize|keyboardHidden"
+        android:theme="@style/AppTheme">
+
+    <activity
+            android:name="mercari.com.example.lily.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

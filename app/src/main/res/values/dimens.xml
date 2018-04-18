@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--left -->
+    <dimen name="left_header_height">100dp</dimen>
+    <dimen name="left_header_padding">16dp</dimen>
+    <dimen name="left_header_title">40sp</dimen>
+
+    <!-- top -->
+    <dimen name="top_header_title">30sp</dimen>
+
+    <!-- list  -->
+    <dimen name="list_item_margin">5dp</dimen>
+    <dimen name="list_margin">5dp</dimen>
+    <dimen name="list_margin_bottom">5dp</dimen>
+    <dimen name="list_margin_mark">5dp</dimen>
+
+    <!-- float menu -->
+    <dimen name="float_menu_size">80dp</dimen>
+    <dimen name="float_menu_text_font_size">13dp</dimen>
+    <dimen name="float_menu_Margin_space">10dp</dimen>
+    <dimen name="float_menu_margin_bottom">20dp</dimen>
+    <dimen name="float_menu_icon_margin_bottom">20dp</dimen>
+    <dimen name="float_menu_margin_right">5dp</dimen>
+</resources>
